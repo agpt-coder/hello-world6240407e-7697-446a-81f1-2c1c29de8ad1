@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hello-world"
+version = "0.1.0"
+description = "create an app that has only one endpoint, that just returns \"hello world\""
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+prisma = "*"
+bcrypt = "*"
+fastapi = "*"
+pydantic = "*"
+pyjwt = "*"
+python-jose = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
